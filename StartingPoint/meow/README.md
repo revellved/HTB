@@ -8,7 +8,7 @@
     <summary>
         <h4>TASK 1: What does the acronym VM stand for?</h4>
     </summary>
-    <b>Virtual Machine</b>
+    <b allign="center">Virtual Machine</b>
 </details>
 <br>
  
@@ -16,7 +16,7 @@
     <summary>
         <h4>TASK 2: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</h4>
     </summary>
-    <b>terminal</b>
+    <b allign="center">terminal</b>
 </details>
 <br>
  
@@ -24,7 +24,7 @@
     <summary>
         <h4>TASK 3: What service do we use to form our VPN connection into HTB labs?</h4>
     </summary>
-    <b>openvpn</b>
+    <b allign="center">openvpn</b>
 </details>
 <br>
  
@@ -32,7 +32,7 @@
     <summary>
         <h4>TASK 4: What tool do we use to test our connection to the target with an ICMP echo request?</h4>
     </summary>
-    <b>ping</b>
+    <b allign="center">ping</b>
 </details>
 <br>
 
@@ -40,7 +40,7 @@
     <summary>
         <h4>TASK 5: What is the name of the most common tool for finding open ports on a target?</h4>
     </summary>
-    <b>nmap</b>
+    <b allign="center">nmap</b>
 </details>
 <br>
 
@@ -48,7 +48,7 @@
     <summary>
         <h4>TASK 6: What service do we identify on port 23/tcp during our scans?</h4>
     </summary>
-    <b>telnet</b>
+    <b allign="center">telnet</b>
 </details>
 <br>
 
@@ -57,7 +57,7 @@
     <summary>
         <h4>TASK 7: What username is able to log into the target over telnet with a blank password?</h4>
     </summary>
-    <b>root<b>
+    <b allign="center">root<b>
 </details>
 <br>
  
@@ -65,7 +65,7 @@
     <summary>
         <h4>SUBMIT FLAG: Submit root flag</h4>
     </summary>
-    <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<b>
+    <b allign="center">To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<b>
 </details>
 
 <br><br>
