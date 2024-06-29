@@ -6,66 +6,66 @@
 
 <details> 
     <summary>
-        <h3>TASK 1: What does the acronym VM stand for?</h3>
+        <h4>TASK 1: What does the acronym VM stand for?</h4>
     </summary>
-    <h4>Virtual Machine</h4>
+    <b>Virtual Machine</b>
 </details>
 <br>
  
 <details> 
     <summary>
-        <h3>TASK 2: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</h3>
+        <h4>TASK 2: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</h4>
     </summary>
-    <h4>terminal</h4>
+    <b>terminal</b>
 </details>
 <br>
  
 <details> 
     <summary>
-        <h3>TASK 3: What service do we use to form our VPN connection into HTB labs?</h3>
+        <h4>TASK 3: What service do we use to form our VPN connection into HTB labs?</h4>
     </summary>
-    <h4>openvpn</h4>
+    <b>openvpn</b>
 </details>
 <br>
  
 <details> 
     <summary>
-        <h3>TASK 4: What tool do we use to test our connection to the target with an ICMP echo request?</h3>
+        <h4>TASK 4: What tool do we use to test our connection to the target with an ICMP echo request?</h4>
     </summary>
-    <h4>ping</h4>
+    <b>ping</b>
 </details>
 <br>
 
 <details> 
     <summary>
-        <h3>TASK 5: What is the name of the most common tool for finding open ports on a target?</h3>
+        <h4>TASK 5: What is the name of the most common tool for finding open ports on a target?</h4>
     </summary>
-    <h4>nmap</h4>
+    <b>nmap</b>
 </details>
 <br>
 
 <details> 
     <summary>
-        <h3>TASK 6: What service do we identify on port 23/tcp during our scans?</h3>
+        <h4>TASK 6: What service do we identify on port 23/tcp during our scans?</h4>
     </summary>
-    <h4>telnet</h4>
+    <b>telnet</b>
 </details>
 <br>
 
     
 <details> 
     <summary>
-        <h3>TASK 7: What username is able to log into the target over telnet with a blank password?</h3>
+        <h4>TASK 7: What username is able to log into the target over telnet with a blank password?</h4>
     </summary>
-    <h4>root<h4>
+    <b>root<b>
 </details>
 <br>
  
 <details> 
     <summary>
-        <h3>SUBMIT FLAG: Submit root flag</h3>
+        <h4>SUBMIT FLAG: Submit root flag</h4>
     </summary>
-    <h4>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<h4>
+    <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<b>
 </details>
 
 <br><br>
