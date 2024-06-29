@@ -8,7 +8,9 @@
     <summary>
         <i>TASK 1: What does the acronym VM stand for?</i>
     </summary>
-    <b>Virtual Machine</b>
+    <p>
+        <b>Virtual Machine</b>
+    </p>
 </details>
 <br>
  
@@ -16,7 +18,9 @@
     <summary>
         <i>TASK 2: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</i>
     </summary>
-    <b>terminal</b>
+    <p>
+        <b>terminal</b>
+    </p>
 </details>
 <br>
  
@@ -24,7 +28,9 @@
     <summary>
         <i>TASK 3: What service do we use to form our VPN connection into HTB labs?</i>
     </summary>
-    <b>openvpn</b>
+    <p>
+        <b>openvpn</b>
+    </p>
 </details>
 <br>
  
@@ -32,7 +38,9 @@
     <summary>
         <i>TASK 4: What tool do we use to test our connection to the target with an ICMP echo request?</i>
     </summary>
-    <b>ping</b>
+    <p>
+        <b>ping</b>
+    </p>
 </details>
 <br>
 
@@ -40,7 +48,9 @@
     <summary>
         <i>TASK 5: What is the name of the most common tool for finding open ports on a target?</i>
     </summary>
-    <b>nmap</b>
+    <p>
+        <b>nmap</b>
+    </p>
 </details>
 <br>
 
@@ -48,7 +58,9 @@
     <summary>
         <i>TASK 6: What service do we identify on port 23/tcp during our scans?</i>
     </summary>
-    <b>telnet</b>
+    <p>
+        <b>telnet</b>
+    </p>
 </details>
 <br>
 
@@ -57,7 +69,9 @@
     <summary>
         <i>TASK 7: What username is able to log into the target over telnet with a blank password?</i>
     </summary>
-    <b>root<b>
+    <p>
+        <b>root<b>
+    </p>
 </details>
 <br>
  
@@ -65,7 +79,9 @@
     <summary>
         <i>SUBMIT FLAG: Submit root flag</i>
     </summary>
-    <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<b>
+    <p>
+        <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<b>
+    </p>
 </details>
 
 <br><br>
