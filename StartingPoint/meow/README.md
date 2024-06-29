@@ -1,6 +1,6 @@
 <h1 align="center">MEOW</h1>
 
-<blockquote text-align="right">NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn (I use openvpn) and connected to it. The file can be downloaded by clicking on the corresponding button in the top panel while being on the app.hackthebox.com domain.</blockquote>
+<q text-align="right">NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn (I use openvpn) and connected to it. The file can be downloaded by clicking on the corresponding button in the top panel while being on the app.hackthebox.com domain.</q>
 
 <h2 align="center">STEPS</h2>
 
