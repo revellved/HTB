@@ -59,7 +59,6 @@
     <h3>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.<h3>
 </details>
 
----
-## PS
+## Notification
 
 Now the FBI is watching you ;)
