@@ -58,7 +58,6 @@
 </details>
 <br>
 
-    
 <details> 
     <summary>
         <i>TASK 7: What username is able to log into the target over telnet with a blank password?</i>
