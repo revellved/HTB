@@ -1,29 +1,44 @@
 # Meow
 
-## TASK 1
+> Do not forget to make sure that you downloaded the config file for connecting via vpn (I use openvpn) and connected to it. The file can be downloaded by clicking on the corresponding button in the top panel while being on the app.hackthebox.com domain.
 
 <details> 
-  <summary>What does the acronym VM stand for?</summary>
-    ```Virtual Machine```
+    <summary>TASK 1: What does the acronym VM stand for?</summary>
+    Virtual Machine
 </details>
 
-## TASK 2
-
 <details> 
-  <summary>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</summary>
-   ```terminal``` 
+    <summary>TASK 2: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.</summary>
+    terminal
 </details>
 
-## TASK 3
-
 <details> 
-  <summary>What service do we use to form our VPN connection into HTB labs?</summary>
-   ```openvpn``` 
+    <summary>TASK 3: What service do we use to form our VPN connection into HTB labs?</summary>
+    openvpn
 </details>
 
-## TASK 4
+<details> 
+    <summary>TASK 4: What tool do we use to test our connection to the target with an ICMP echo request?</summary>
+    ping
+</details>
 
 <details> 
-  <summary>What service do we use to form our VPN connection into HTB labs?</summary>
-   ```openvpn``` 
+    <summary>TASK 5: What is the name of the most common tool for finding open ports on a target?</summary>
+    nmap
+</details>
+
+<details> 
+    <summary>TASK 6: What service do we identify on port 23/tcp during our scans?</summary>
+    telnet
+</details>
+
+<details> 
+    <summary>TASK 7: What username is able to log into the target over telnet with a blank password?</summary>
+    root
+</details>
+
+
+<details> 
+    <summary>SUBMIT FLAG: Submit root flag</summary>
+    To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.
 </details>
