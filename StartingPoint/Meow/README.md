@@ -1,6 +1,6 @@
 <h1 align="center">MEOW</h1>
 
-> Do not forget to make sure that you downloaded the config file for connecting via vpn and connected to it. 
+> NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn and connected to it. 
 
 <h2 align="center">STEPS</h2>
 
