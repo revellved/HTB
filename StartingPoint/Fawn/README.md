@@ -78,14 +78,12 @@
 <details> 
     <summary>
         <i>TASK 8: What is username that is used over FTP when you want to log in without having an account?</i>
-    </summary>
-    <br>
-    <b>anonymous</b>
-    <p>
         <blockquote cite="NOTE">
             <i>NOTE: On this machine, if you are asked for a password, for anonymous you can enter whatever you want or leave it blank, you will still be successfully logged in.</i>
         </blockquote>
-    </p>
+    </summary>
+    <br>
+    <b>anonymous</b>
 </details>
 <br>
 
