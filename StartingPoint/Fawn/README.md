@@ -44,7 +44,9 @@
     <summary>
         <i>TASK 5: From your scans, what version is FTP running on the target?</i>
         <br>
-        <i>HINT: To get the ftp version we must use nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRES</i>
+        <blockquote cite="HINT">
+            <i>HINT: To get the ftp version we must use nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRES</i>
+        </blockquote>
     </summary>
     <br>
     <b>vsftpd 3.0.3</b>
