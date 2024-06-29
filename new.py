@@ -30,7 +30,7 @@ def parse_template(line: str, global_template: bool = True):
     
     splits = line.split('$')
     for i in range(1, len(splits), 2):
-        splits[i] = input('Value for ' + splits[i] + ': ')
+        splits[i] = input('Value for ' + splits[i] + ': ').strip()
         if splits[i] == '':
             return ''
 
@@ -46,6 +46,7 @@ def fill_details():
             print()
             for line in details_template:
                 output += parse_template(line, False)
+            output += '\n'
             print()
         user_input = input('Are there any other questions? (Y/n): ').upper()
     
