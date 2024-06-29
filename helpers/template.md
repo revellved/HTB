@@ -8,14 +8,11 @@
     <summary>
         <i>TASK 1: $TASK_DESC$</i>
         <br>
-        <blockquote cite="$QUOTE_TYPE">
-            <i>$QUOTE_TEXT$</i>
-        </blockquote>
+        <blockquote><i>$QUOTE_TEXT$</i></blockquote>
     </summary>
     <br>
     <b>$ANSWER$</b>
-</details>
-<br>
+</details><br>
 
 <h2 align="center">NOTIFICATION</h2>
 
