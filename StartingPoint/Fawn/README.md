@@ -50,6 +50,15 @@
 </details>
 <br>
 
+<details> 
+    <summary>
+        <i>TASK 6: From your scans, what OS type is running on the target?</i>
+        <i>HINT: To get the OS type we must use nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRES</i>
+    </summary>
+    <br>
+    <b>Unix</b>
+</details>
+<br>
 
 <h2 align="center">NOTIFICATION</h2>
 
