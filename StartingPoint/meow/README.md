@@ -3,6 +3,7 @@
 > NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn (I use openvpn) and connected to it. The file can be downloaded by clicking on the corresponding button in the top panel while being on the app.hackthebox.com domain.
 
 <h2 align="center">STEPS</h2>
+
 <details> 
     <summary>
         <i>TASK 1: What does the acronym VM stand for?</i>
@@ -66,7 +67,7 @@
     </summary>
     <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.</b>
 </details>
-
+<br>
 
 <h2 align="center">NOTIFICATION</h2>
 
