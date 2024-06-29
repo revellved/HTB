@@ -1,18 +1,19 @@
-<h1 align="center">NAME MACHINE</h1>
+<h1 align="center">$NAME_MACHINE$</h1>
 
 > NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn and connected to it. 
+
 <h2 align="center">STEPS</h2>
 
 <details> 
     <summary>
-        <i>TASK 1: ...</i>
+        <i>TASK 1: $TASK_DESC$</i>
         <br>
-        <blockquote cite="...">
-            <i>...</i>
+        <blockquote cite="$QUOTE_TYPE">
+            <i>$QUOTE_TEXT$</i>
         </blockquote>
     </summary>
     <br>
-    <b> — </b>
+    <b>$ANSWER$</b>
 </details>
 <br>
 
