@@ -81,10 +81,11 @@
     </summary>
     <br>
     <b>anonymous</b>
-    <br>
-    <blockquote cite="NOTE">
-        <i>NOTE: On this machine, if you are asked for a password, for anonymous you can enter whatever you want or leave it blank, you will still be successfully logged in.</i>
-    </blockquote>
+    <p>
+        <blockquote cite="NOTE">
+            <i>NOTE: On this machine, if you are asked for a password, for anonymous you can enter whatever you want or leave it blank, you will still be successfully logged in.</i>
+        </blockquote>
+    </p>
 </details>
 <br>
 
