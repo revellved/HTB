@@ -6,7 +6,7 @@
 
 <details> 
     <summary>
-        <i>TASK 1: $TASK_DESC$</i>
+        <i>$DESCRIPTION$</i>
         <br>
         <blockquote><i>$QUOTE_TEXT$</i></blockquote>
     </summary>
