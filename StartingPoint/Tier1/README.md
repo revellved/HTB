@@ -8,3 +8,11 @@ Additionally, you'll learn how to navigate Jenkins, a popular automation server,
 - Use the services showcased in the previous tier for exploitation.
 - Learn how to login to Jenkins and upload a Groovy Shell Script.
 - Learn how to upload files to an S3 Bucket.
+
+## Machines
+
+- Appointment
+- Sequel
+- Crocodile
+- Responder
+- Three
