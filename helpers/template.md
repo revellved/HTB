@@ -8,8 +8,7 @@
     <summary>
         <i>$DESCRIPTION$</i>
         <blockquote><i>$QUOTE_TEXT$</i></blockquote>
-    </summary>
-    <br>
+    </summary><br>
     <b>$ANSWER$</b>
 </details><br>
 
