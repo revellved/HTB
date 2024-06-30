@@ -5,3 +5,10 @@ In the first tier, you will gain essential skills in the world of cybersecurity 
 - Learn how to connect FTP, SMB, Telnet, Rsync and RDP anonymously.
 - Learn how to use Nmap to identify open ports.
 - Learn how to connect to a MongoDB server.
+
+## Machines
+
+- Dancing
+- Fawn
+- Meow
+- Redeemer
