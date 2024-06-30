@@ -4,6 +4,28 @@
 
 ## TIERS
 
-    TIER 0: THE KEY IS A STRONG FOUNDATION
-    TIER 1: YOU NEED TO WALK BEFORE YOU CAN RUN
-    TIER 2: DON'T FORGET TO CONTEMPLATE
+### TIER 0: 
+    THE KEY IS A STRONG FOUNDATION
+#### Machines
+- Dancing
+- Fawn
+- Meow
+- Redeemer
+
+### TIER 1: 
+    YOU NEED TO WALK BEFORE YOU CAN RUN
+#### Machines
+- Appointment
+- Sequel
+- Crocodile
+- Responder
+- Three
+
+### TIER 2: 
+    DON'T FORGET TO CONTEMPLATE
+## Machines
+- Archetype
+- Oopsie
+- Vaccine
+- Unifield
+
