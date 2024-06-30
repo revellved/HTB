@@ -10,7 +10,6 @@ Additionally, you'll learn how to navigate Jenkins, a popular automation server,
 - Learn how to upload files to an S3 Bucket.
 
 ## Machines
-
 - Appointment
 - Sequel
 - Crocodile
