@@ -4,6 +4,7 @@
 
 <h2 align="center">STEPS</h2>
 
+
 <details> 
     <summary>
         <i>TASK 1: What does the acronym VM stand for?</i>
@@ -67,6 +68,7 @@
     <b>To receive the flag you need to connect via telnet to the IP address that you receive when you spawn the machine.</b>
 </details>
 <br>
+
 
 <h2 align="center">NOTIFICATION</h2>
 

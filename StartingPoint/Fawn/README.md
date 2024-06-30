@@ -3,6 +3,7 @@
 > NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn and connected to it. 
 <h2 align="center">STEPS</h2>
 
+
 <details> 
     <summary>
         <i>TASK 1: What does the 3-letter acronym FTP stand for? </i>
@@ -107,6 +108,7 @@
     <b>To receive the flag you need to connect via ftp to the IP address that you receive when you spawn the machine. Next you need to enter the default login and password (see TASK 8), and then download the flag using the get command (ftp does not support cat</b>
 </details>
 <br>
+
 
 <h2 align="center">NOTIFICATION</h2>
 
