@@ -4,7 +4,6 @@
 
 <h2 align="center">STEPS</h2>
 
-
 <details> 
     <summary>
         <i>TASK 1: What does the acronym VM stand for?</i>
@@ -69,9 +68,5 @@
 </details>
 <br>
 
-
 <h2 align="center">NOTIFICATION</h2>
-
-<p align="center">
-    <b>Now the FBI is watching you ;)</b>
-</p>
+<p align="center"><b>Now the FBI is watching you ;)</b></p>

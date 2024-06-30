@@ -13,7 +13,4 @@
 </details><br>
 
 <h2 align="center">NOTIFICATION</h2>
-
-<p align="center">
-    <b>Now the FBI is watching you ;)</b>
-</p>
+<p align="center"><b>Now the FBI is watching you ;)</b></p>

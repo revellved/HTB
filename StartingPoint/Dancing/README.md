@@ -2,7 +2,6 @@
 
 > NOTE: Do not forget to make sure that you downloaded the config file for connecting via vpn and connected to it. 
 
-
 <h2 align="center">STEPS</h2>
 
 <details> 
@@ -64,9 +63,5 @@
     <b>You should connected via smbclient: smbclient //$MACHINE_IP_ADRESS/WorkShares -U " "%" "</b>
 </details><br>
 
-
 <h2 align="center">NOTIFICATION</h2>
-
-<p align="center">
-    <b>Now the FBI is watching you ;)</b>
-</p>
+<p align="center"><b>Now the FBI is watching you ;)</b></p>
