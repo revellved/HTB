@@ -4,6 +4,9 @@
 
 ## Tiers
 
-- Tier0: The key is a strong foundation
-- Tier1: You need to walk before you can run
-- Tier2: Don't forget to contemplate 
+- Tier0: 
+    > The key is a strong foundation
+- Tier1: 
+    > You need to walk before you can run
+- Tier2: 
+    > Don't forget to contemplate 
