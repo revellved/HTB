@@ -7,7 +7,6 @@ In the first tier, you will gain essential skills in the world of cybersecurity 
 - Learn how to connect to a MongoDB server.
 
 ## Machines
-
 - Dancing
 - Fawn
 - Meow
