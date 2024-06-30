@@ -2,7 +2,7 @@
 
 > https://app.hackthebox.com/starting-point
 
-## Tiers
+## TIERS
 
 - T I E R 0: 
     > THE KEY IS A STRONG FOUNDATION
