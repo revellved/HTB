@@ -7,7 +7,6 @@
 <details> 
     <summary>
         <i>$DESCRIPTION$</i>
-        <br>
         <blockquote><i>$QUOTE_TEXT$</i></blockquote>
     </summary>
     <br>
