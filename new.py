@@ -1,25 +1,37 @@
-#!/bin/python
-
 ########## INFO ############################
 # Create instruction.md for machine of HTB #
 ######################        ##############
+import os, pathlib, readline
 
-import os, pathlib
-
+########## INIT ############################
 TMP = './helpers/template.md'
 PWD = os.path.dirname(os.path.realpath(__file__))
 DETAILS_MARK = '$DETAILS_TEMPLATE'
+DEFAULT_SAVE = 'StartingPoint/Tier1/'
 
+step: int = 0
+placeholder: str = ''
+name_machine: str = ''
 details: bool = False
 details_template: list[str] = []
 
-## Delete tralling spaces of all word
+########## HELPERS #########################
+## Input with placeholder
+def rlinput(prompt, prefill=''):
+   readline.set_startup_hook(lambda: readline.insert_text(prefill))
+   try:
+      return input(prompt)
+   finally:
+      readline.set_startup_hook()
+
+########## FUNCTIONS #######################
+## All Strip!
 def allstrip(text: str) -> str:
     return ' '.join(text.split())
 
 ## Parse template on lines
 def parse_template(line: str, global_template: bool = True):
-    global details, details_template
+    global details, details_template, placeholder, name_machine
 
     if global_template:
         if line.strip() == '</details><br>':
@@ -36,18 +48,29 @@ def parse_template(line: str, global_template: bool = True):
     
     splits = line.split('$')
     for i in range(1, len(splits), 2):
-        splits[i] = allstrip(input('Value for ' + splits[i] + ': '))
+        value = allstrip(rlinput('Value for ' + splits[i] + ': ', placeholder))
+        if splits[i] == 'NAME_MACHINE':
+            name_machine = value
+
+        splits[i] = value
         if splits[i] == '':
             return ''
+        placeholder = ''
 
     return ''.join(splits)
 
 def fill_details():
-    print('\n-- Fill Details')
+    global placeholder, step
+    placeholder = 'TASK %i: ' % step
     output = ''
     user_input = ''
+
+    print('\n-- Fill Details')
     while user_input != 'N':
         if user_input == '' or user_input == 'Y':
+            step += 1
+            placeholder = 'TASK %i: ' % step
+
             print()
             for line in details_template:
                 output += parse_template(line, False)
@@ -78,17 +101,16 @@ def save(pathdir, text):
     with open(pathdir + 'README.md', 'w') as fp:
         fp.write(text)
 
-## MAIN
+########## MAIN ############################
 def main():
     print('-- Hello, let\'s generating instruction\n')
     instruction = generate_instruction().replace(DETAILS_MARK, fill_details())
-    pathdir = input('\nSave to (dir): ')
+    pathdir = rlinput('\nSave to (dir): ', DEFAULT_SAVE + name_machine)
     if not pathdir.endswith('/'):
-        pathdir += "/"
+        pathdir += '/'
 
     save(pathdir, instruction)
     
-## RUN
 if __name__ == '__main__':
     main()
 
