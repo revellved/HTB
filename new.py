@@ -1,8 +1,10 @@
+#!/bin/python
+
 ########## INFO ############################
 # Create instruction.md for machine of HTB #
 ######################        ##############
+
 import os, pathlib
-from re import split
 
 TMP = './helpers/template.md'
 PWD = os.path.dirname(os.path.realpath(__file__))
@@ -10,6 +12,10 @@ DETAILS_MARK = '$DETAILS_TEMPLATE'
 
 details: bool = False
 details_template: list[str] = []
+
+## Delete tralling spaces of all word
+def allstrip(text: str) -> str:
+    return ' '.join(text.split())
 
 ## Parse template on lines
 def parse_template(line: str, global_template: bool = True):
@@ -30,7 +36,7 @@ def parse_template(line: str, global_template: bool = True):
     
     splits = line.split('$')
     for i in range(1, len(splits), 2):
-        splits[i] = input('Value for ' + splits[i] + ': ').strip()
+        splits[i] = allstrip(input('Value for ' + splits[i] + ': '))
         if splits[i] == '':
             return ''
 
@@ -38,8 +44,7 @@ def parse_template(line: str, global_template: bool = True):
 
 def fill_details():
     print('\n-- Fill Details')
-
-    output = ""
+    output = ''
     user_input = ''
     while user_input != 'N':
         if user_input == '' or user_input == 'Y':
