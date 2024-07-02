@@ -39,7 +39,7 @@
     <summary>
         <i>TASK 5: From your scans, what version is FTP running on the target?</i>
         <blockquote cite="HINT">
-            <i>HINT: To get the ftp version you shoud use nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRESS</i>
+            <i>HINT: For get the ftp version using nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRESS</i>
         </blockquote>
     </summary><br>
     <b>vsftpd 3.0.3</b>
@@ -50,7 +50,7 @@
     <summary>
         <i>TASK 6: From your scans, what OS type is running on the target?</i>
         <blockquote cite="HINT">
-            <i>HINT: To get the OS type you should use nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRESS</i>
+            <i>HINT: For get the OS type using nmap with the -sV switch, which allows us to find out the software versions: nmap -sV $HTB_MACHINE_IP_ADRESS</i>
         </blockquote>
     </summary><br>
     <b>Unix</b>
