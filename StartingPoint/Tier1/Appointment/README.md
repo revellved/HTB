@@ -80,7 +80,7 @@
     <summary>
         <i>SUBMIT FLAG: Submit root flag</i>
     </summary><br>
-    <b>You should go-to $MACHINE_IP_ADRESS and enter in field username end #' (+any password)</b>
+    <b>go to $MACHINE_IP_ADRESS and enter in field username end #' (+any password)</b>
 </details><br>
 
 
