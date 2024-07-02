@@ -57,7 +57,7 @@
     <summary>
         <i>SUBMIT FLAG: Submit root flag</i>
     </summary><br>
-    <b>You should connect to mysql and get flag from one of the database (htb) table via select command</b>
+    <b>Connect to mysql and get flag from one of the database (htb) table via select command</b>
 </details><br>
 
 
