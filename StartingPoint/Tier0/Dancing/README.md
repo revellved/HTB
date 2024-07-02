@@ -60,7 +60,7 @@
     <summary>
         <i>SUBMIT FLAG: Submit root flag</i>
     </summary><br>
-    <b>You should connected via smbclient: smbclient //$MACHINE_IP_ADRESS/WorkShares -U " "%" "</b>
+    <b>Connected via smbclient: smbclient //$MACHINE_IP_ADRESS/WorkShares -U " "%" " and get flag</b>
 </details><br>
 
 
