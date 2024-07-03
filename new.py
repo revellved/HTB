@@ -7,7 +7,7 @@ import os, pathlib, readline
 TMP = './helpers/template.md'
 PWD = os.path.dirname(os.path.realpath(__file__))
 DETAILS_MARK = '$DETAILS_TEMPLATE'
-DEFAULT_SAVE = 'StartingPoint/Tier1/'
+DEFAULT_SAVE = 'StartingPoint/Tier2/'
 
 step: int = 0
 placeholder: str = ''
